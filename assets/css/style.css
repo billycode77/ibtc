@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Roboto:700');
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: "Lato", Helvetica, sans-serif;
+    color: #474545;
+    }
+
+h1{
+    font-family: "Roboto";
+    text-transform: uppercase;
+    color: #184dde;
+    float: left;
+    line-height: 100px;
+    font-size: 250%;
+    letter-spacing: 3px;
+    }
+#menu {
+    list-style-type: none;
+    line-height: 100px;
+    font-size: 110%;
+    letter-spacing: 2px;
+}
+#menu li {
+    float: right;
+    margin-right: 20px;
+}
+#menu a {
+    text-decoration: none;
+    color: #184dde;
+}
+#menu a:hover {
+    background-color: #184dde;
+    color: #e61612;
+}
+.active {
+    border-bottom: 1px solid #184dde;
+}
+
+
+.home {
+    height: 500px;
+    width: 100%
+}
+
+
+
+footer{
+    height: 150px;
+    }
+.social-networks {
+    text-align: center;
+}
+.social-networks li{
+    display: inline;
+}
+
+
+
+
