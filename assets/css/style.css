@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300|Roboto:700');
+
+/*General*/
 *{
     border: 0;
     padding: 0;
@@ -10,7 +12,7 @@ body {
     font-family: "Lato", Helvetica, sans-serif;
     color: #474545;
     }
-
+/*Header*/
 h1{
     font-family: "Roboto";
     text-transform: uppercase;
@@ -41,24 +43,48 @@ h1{
 .active {
     border-bottom: 1px solid #184dde;
 }
-
-
-.home {
+/*Home Section*/
+#homeimg {
+    background-image: url("../assets/images/firetube.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+#homeimg div {
+    color: #e61612;
+    width: 20%;
     height: 500px;
-    width: 100%
+    float: left;
+    padding: 20px 0 0 10px;
+    text-align: left;
+    margin-left: 8%
+}
+#homeimg div h2 {
+    text-align: center;
+}
+#homeimg div p {
+    margin-top: 15px;
 }
 
 
-
+/*Footer*/
 footer{
     height: 150px;
     }
-.social-networks {
+.social-media {
     text-align: center;
 }
-.social-networks li{
+.social-media li{
     display: inline;
-}
+    }
+    .social-media i {
+        font-size: 150%;
+        margin: 1%;
+        padding: 1%;
+        color: #184dde;
+    }
 
 
 
