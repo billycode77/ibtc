@@ -45,7 +45,7 @@ h1{
 }
 /*Home Section*/
 #homeimg {
-    background-image: url("../assets/images/firetube.jpg") ;
+    background: url("../images/indblr.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -53,9 +53,10 @@ h1{
     overflow: hidden;
 }
 #homeimg div {
-    color: #e61612;
+    background-color: rgba(51, 48, 48, 0.5);
+    color: #fafafa;
     width: 20%;
-    height: 500px;
+    height: 700px;
     float: left;
     padding: 20px 0 0 10px;
     text-align: left;
@@ -63,6 +64,10 @@ h1{
 }
 #homeimg div h2 {
     text-align: center;
+}
+#homeimg div h5 {
+    text-align: center;
+    margin-top: 2px;
 }
 #homeimg div p {
     margin-top: 15px;
@@ -79,7 +84,7 @@ footer{
 .social-media li{
     display: inline;
     }
-    .social-media i {
+.social-media i {
         font-size: 150%;
         margin: 1%;
         padding: 1%;
