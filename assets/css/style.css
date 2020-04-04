@@ -98,7 +98,41 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 200px;
-    
+}
+#modulating-pic{
+    background: url("../images/modulating.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+}
+#digital-pic {
+    background: url("../images/digital.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+}
+#process-pic {
+    background: url("../images/process.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+}
+#fgr-pic {
+    background: url("../images/fgr.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+}
+#dualfuel-pic {
+    background: url("../images/dualfuel.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
 }
 
 /*Footer*/
