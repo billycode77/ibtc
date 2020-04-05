@@ -128,17 +128,17 @@ h1{
     min-height: 200px;
 }
 #process-pic {
-    background: url("../images/process.jpg");
+    background: url("../images/process2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 200px;
 }
 #fgr-pic {
-    background: url("../images/fgr.jpg");
+    background: url("../images/fgr2.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 80%;
     min-height: 200px;
 }
 #dualfuel-pic {
