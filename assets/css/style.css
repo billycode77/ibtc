@@ -157,7 +157,7 @@ h1{
     text-align: left;
     margin-left: 1%
 }
-/*Burners background pics*/
+/*controls background pics*/
 #steam-boiler-pic {
     background: url("../images/steam-boiler.jpg");
     background-position: center;
@@ -193,6 +193,69 @@ h1{
     background-size: 80%;
     min-height: 200px;
 }
+
+/*Steam section*/
+#steam-headings {
+    width: 100%;
+}
+#steam-headings div {
+    
+    color: #184dde;
+    width: 18%;
+    height: 50px;
+    float: left;
+    padding: 20px 0 0 10px;
+    text-align: center;
+    margin-left: 1%
+}
+#steam {
+    width: 100%;
+}
+#steam div {
+    
+    color: #474545;
+    width: 18%;
+    height: 200px;
+    float: left;
+    padding: 20px 0 0 10px;
+    text-align: left;
+    margin-left: 1%
+}
+/*steam background pics*/
+#operator-pic {
+    background: url("../images/operator.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+}
+#water-pic {
+    background: url("../images/water.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+}
+#hot-well-pic {
+    background: url("../images/hot-well.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+}
+#inspection-pic {
+    background: url("../images/inspection.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+}
+#ndt-pic {
+    background: url("../images/ndt.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    min-height: 200px;
 
 /*Footer*/
 footer{
