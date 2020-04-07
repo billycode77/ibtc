@@ -78,6 +78,10 @@ h1{
 }
 /*Burners section*/
 
+div ul {
+    list-style-type: none;
+}
+
 #burner-headings {
     width: 100%;
 }
@@ -102,7 +106,7 @@ h1{
     height: 200px;
     float: left;
     padding: 20px 0 0 10px;
-    text-align: left;
+    text-align: center;
     margin-left: 1%
 }
 /*Burners background pics*/
@@ -154,7 +158,7 @@ h1{
     height: 200px;
     float: left;
     padding: 20px 0 0 10px;
-    text-align: left;
+    text-align: center;
     margin-left: 1%
 }
 /*controls background pics*/
@@ -187,7 +191,7 @@ h1{
     min-height: 200px;
 }
 #remote-pic {
-    background: url("../images/remote.jpg");
+    background: url("../images/remote2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 80%;
@@ -218,7 +222,7 @@ h1{
     height: 200px;
     float: left;
     padding: 20px 0 0 10px;
-    text-align: left;
+    text-align: center;
     margin-left: 1%
 }
 /*steam background pics*/
@@ -229,8 +233,8 @@ h1{
     background-size: cover;
     min-height: 200px;
 }
-#water-pic {
-    background: url("../images/water.jpg");
+#water-treatment-pic {
+    background: url("../images/water-treatment.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -244,7 +248,7 @@ h1{
     min-height: 200px;
 }
 #inspection-pic {
-    background: url("../images/inspection.jpg");
+    background: url("../images/insurance.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -256,7 +260,7 @@ h1{
     background-repeat: no-repeat;
     background-size: 80%;
     min-height: 200px;
-
+}
 /*Footer*/
 footer{
     height: 150px;
