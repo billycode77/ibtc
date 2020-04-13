@@ -299,8 +299,33 @@ div ul {
 
 /*training courses section*/
 
+.register-form {
+margin-top:50px;
+
+color:#fff;
+background-color: rgba(60,60,60, 0.6);
+max-width: 300px;
+position: absolute;
+
+}
+
+
+.text-input {
+  background-color: transparent;
+  color: #fafafa;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0px 20px 0px;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+}
+.text-input:hover{
+  border-color: #f16c6b;
+}
+
+
 #training-courses {
-    background: url("../images/indblr.jpg") ;
+    background: url("../images/weechieftain.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -308,13 +333,13 @@ div ul {
     overflow: hidden;
 }
 #training-courses div {
-    background-color: rgba(51, 48, 48, 0.5);
+    background-color: rgba(25, 135, 207, 0.5);
     color: #fafafa;
     width: 20%;
-    height: 900px;
+    height: 600px;
     float: left;
     padding: 20px 0 0 10px;
-    text-align: left;
+    text-align: center;
     margin-left: 8%;
 }
 #training-courses div h2 {
