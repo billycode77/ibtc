@@ -313,7 +313,7 @@ position: absolute;
 .text-input {
   background-color: transparent;
   color: #fafafa;
-  width: 100%;
+  width: 95%;
   height: 25px;
   margin: 5px 0px 20px 0px;
   border: 1px solid #fafafa;
@@ -325,7 +325,7 @@ position: absolute;
 
 
 #training-courses {
-    background: url("../images/weechieftain.jpg") ;
+    background: url("../images/newboilers.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
