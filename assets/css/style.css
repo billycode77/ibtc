@@ -298,12 +298,7 @@ div ul {
 
 
 /*training courses section*/
-#divider {
-    width: 100%;
-    text-align: center;
-    color: #184dde;
-    margin-left: 20%;
-}
+
 #training-courses {
     background: url("../images/indblr.jpg") ;
     background-repeat: no-repeat;
