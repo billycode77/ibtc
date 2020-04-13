@@ -295,6 +295,45 @@ div ul {
     background-size: 80%;
     min-height: 200px;
 }
+
+
+/*training courses section*/
+#divider {
+    width: 100%;
+    text-align: center;
+    color: #184dde;
+    margin-left: 20%;
+}
+#training-courses {
+    background: url("../images/indblr.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+#training-courses div {
+    background-color: rgba(51, 48, 48, 0.5);
+    color: #fafafa;
+    width: 20%;
+    height: 900px;
+    float: left;
+    padding: 20px 0 0 10px;
+    text-align: left;
+    margin-left: 8%;
+}
+#training-courses div h2 {
+    text-align: center;
+}
+#training-courses div h5 {
+    text-align: center;
+    margin-top: 10px;
+}
+#training-courses div p {
+    margin-top: 15px;
+}
+
+
 /*Footer*/
 footer{
     height: 150px;
