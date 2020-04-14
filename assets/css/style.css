@@ -354,7 +354,7 @@ position: absolute;
 }
 .submit{
   margin-top: 20px;
-  margin-left: 30%;
+  margin-left: 35%;
   border-radius: 5px;
   padding: 10px 20px 10px 20px;
   text-align: center;
@@ -366,6 +366,19 @@ position: absolute;
 .submit:hover{
   background-color: #184dde;
   color: #e61612;
+}
+.training-form {
+margin-top:50px;
+color:#fff;
+background-color: rgba(60,60,60, 0.6);
+max-width: 300px;
+position: absolute;
+text-align: left;
+margin-left: 10%;
+}
+.checkbox {
+  text-align: left;
+margin-left: 10%;  
 }
 
 /*Footer*/

@@ -44,7 +44,7 @@
          <form class="register-form" action="https://formdump.codeinstitute.net/" method="post">
     
       <label for="fname">First Name</label>
-      <input class="text-input" id="fname" type="text" name="first_name" required/>
+      <input class="text-input" classid="fname" type="text" name="first_name" required/>
     
       <label for="lname">Last Name</label>
       <input class="text-input" id="lname" type="text" name="last_name" required/>
@@ -52,11 +52,11 @@
      <label for="email">Email Address</label>
      <input class="text-input" id="email" type="email" name="email_address" required/>
 
-     <label for="password">Password</label>
-     <input class="text-input" id="password" type="password" name="password" required/>
+     <label for="company">Company</label>
+     <input class="text-input" id="company" type="text" name="company" required/>
 
-     <label for="confirm-password">Confirm Password</label>
-     <input class="text-input" id="confirm-password" type="password" name="confirm_password" required/>
+     <label for="position">Position</label>
+     <input class="text-input" id="position" type="text" name="position" required/>
     
     <input class="submit" type="submit" value="Submit"/>
       
@@ -66,12 +66,33 @@
     </div>
     <div>
       <h2>Training Courses  <i class="fas fa-book-reader"></i> </h2> 
-      <form class="course-select" action="https://formdump.codeinstitute.net/" method="post">  
-       
-        < input type="checkbox" name="course" value="steam-boiler-controls"/>
+      <form class="training-form" action="https://formdump.codeinstitute.net/" method="post">
+       <h5>Select Courses of Interest</h5>
+        <h5>Controls Courses</h5>
+        <input class="checkbox" type="checkbox" name="controls_sb" value="ctrl_sb"> Steam Boiler Controls <br>
+        <input class="checkbox" type="checkbox" name="controls_hw" value="ctrl_hw"> H W Boiler Controls <br>
+        <input class="checkbox" type="checkbox" name="controls_cas" value="ctrl_cas"> Cascade  Controls <br>
+        <input class="checkbox" type="checkbox" name="controls_bms" value="ctrl_bms"> BMS Controls <br>
+        <input class="checkbox" type="checkbox" name="controls_rem" value="ctrl_rem"> Remote Boiler Controls <br>
+    
+        <h5>Burners Courses</h5>
+        <input class="checkbox" type="checkbox" name="burners_ts" value="burn_ts"> Two Stage Burners <br>
+        <input class="checkbox" type="checkbox" name="burners_mod" value="burn_mod"> Modulating Burners <br>
+        <input class="checkbox" type="checkbox" name="burners_dig" value="burn_dig"> Digital Burners <br>
+        <input class="checkbox" type="checkbox" name="burners_pro" value="burn_pro"> Process Burners <br>
+        <input class="checkbox" type="checkbox" name="burners_fgr" value="burn_fgr"> Flue Gas Recirc Burners <br>
+    
+        <h5>Steam Boiler Courses</h5>
+        <input class="checkbox" type="checkbox" name="steam_opr" value="steam_opr"> Operator Training <br>
+        <input class="checkbox" type="checkbox" name="steam_wat" value="steam_wat"> Water Treatment <br>
+        <input class="checkbox" type="checkbox" name="steam_htw" value="steam_htw"> Hot Well <br>
+        <input class="checkbox" type="checkbox" name="steam_ins" value="steam_ins"> Insurance Inspection <br>
+        <input class="checkbox" type="checkbox" name="steam_ndt" value="steam_ndt"> Non Destructive Testing <br>
+    
 
-
-      </form>
+    
+    <input class="submit" type="submit" />
+</form>
     </div>
     <div>
             <h2>Contact Details   <i class="fas fa-phone-square"></i></h2>
