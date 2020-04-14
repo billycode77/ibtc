@@ -303,7 +303,7 @@ div ul {
 margin-top:50px;
 
 color:#fff;
-background-color: rgba(60,60,60, 0.6);
+/*background-color: rgba(60,60,60, 0.6);*/
 max-width: 300px;
 position: absolute;
 
@@ -333,7 +333,7 @@ position: absolute;
     overflow: hidden;
 }
 #training-courses div {
-    background-color: rgba(221, 112, 112, 0.5);
+    background-color: rgba(14, 106, 243, 0.5);
     color: #fafafa;
     width: 20%;
     height: 600px;
@@ -370,15 +370,14 @@ position: absolute;
 .training-form {
 margin-top:50px;
 color:#fff;
-background-color: rgba(60,60,60, 0.6);
+/*background-color: rgba(33, 61, 224, 0.5);*/
 max-width: 300px;
-position: absolute;
+
 text-align: left;
-margin-left: 10%;
+
 }
 .checkbox {
-  text-align: left;
-margin-left: 10%;  
+  
 }
 
 /*Footer*/
