@@ -162,14 +162,15 @@ div ul {
     width: 100%;
 }
 #burners div {
-    
-    color: #474545;
+    background-color: rgba(235, 82, 82, 0.596);
+    color: #184dde;
     width: 18%;
-    height: 200px;
+    height: 500px;
     float: left;
     padding: 20px 0 0 10px;
     text-align: center;
-    margin-left: 1%
+    margin-left: 1% ;
+    margin-top: 25px;
 }
 /*Burners background pics*/
 #hilow-pic {
@@ -178,6 +179,11 @@ div ul {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 200px;
+    
+}
+#hilow-pic h2 {
+   color: #184dde; 
+   background-color: rgba(235, 82, 82, 0.596);
 }
 #modulating-pic {
     background: url("../images/modulating.jpg");
@@ -185,6 +191,7 @@ div ul {
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 200px;
+    color: #184dde;
 }
 #digital-pic {
     background: url("../images/digital.jpg");
@@ -192,6 +199,7 @@ div ul {
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 200px;
+    color: #184dde;
 }
 #process-pic {
     background: url("../images/process2.jpg");
@@ -199,6 +207,7 @@ div ul {
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 200px;
+    color: #184dde;
 }
 #fgr-pic {
     background: url("../images/fgr2.jpg");
@@ -206,6 +215,7 @@ div ul {
     background-repeat: no-repeat;
     background-size: 80%;
     min-height: 200px;
+    color: #184dde;
 }
 
 
@@ -361,7 +371,7 @@ position: absolute;
     overflow: hidden;
 }
 #training-courses div {
-    background-color: rgba(14, 106, 243, 0.5);
+    background-color: rgba(188, 206, 233, 0.5);
     color: #fafafa;
     width: 20%;
     height: 600px;
