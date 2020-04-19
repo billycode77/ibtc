@@ -275,10 +275,10 @@ div ul {
 }
 /*controls background pics*/
 #steam-boiler-pic {
-    background: url("../images/steam-boiler.jpg");
+    background: url("../images/steam2.jpg");
     background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     min-height: 200px;
 }
 #steam-boiler-pic h2 {
@@ -310,7 +310,7 @@ div ul {
     background: url("../images/cascade.png");
     background-position: top;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 60%;
     min-height: 200px;
 }
 #cascade-pic h2 {
@@ -323,7 +323,7 @@ div ul {
     margin-top: 10px;
 }
 #bms-pic {
-    background: url("../images/bms.jpg");
+    background: url("../images/remote2.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
@@ -339,10 +339,10 @@ div ul {
     margin-top: 10px;
 }
 #remote-pic {
-    background: url("../images/remote2.jpg");
+    background: url("../images/remotec.png");
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size: contain;
     min-height: 200px;
 }
 #remote-pic h2 {
