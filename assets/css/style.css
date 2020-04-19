@@ -390,26 +390,62 @@ div ul {
     background-size: cover;
     min-height: 200px;
 }
+#operator-pic h2 {
+    margin-top: 200px;
+   color: #184dde; 
+   
+}
+#operator-pic ul {
+    color: #184dde;
+    margin-top: 10px;
+}
 #water-treatment-pic {
+    background: url("../images/treatment.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    min-height: 200px;
+}
+#water-treatment-pic h2 {
+    margin-top: 200px;
+   color: #184dde; 
+   
+}
+#water-treatment-pic ul {
+    color: #184dde;
+    margin-top: 10px;
+}
+#hot-well-pic {
     background: url("../images/water-treatment.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 200px;
 }
-#hot-well-pic {
-    background: url("../images/hot-well.jpg");
+#hot-well-pic h2 {
+    margin-top: 200px;
+   color: #184dde; 
+   
+}
+#hot-well-pic ul {
+    color: #184dde;
+    margin-top: 10px;
+}
+#inspection-pic {
+    background: url("../images/inspection2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 200px;
 }
-#inspection-pic {
-    background: url("../images/insurance.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 200px;
+#inspection-pic h2 {
+    margin-top: 200px;
+   color: #184dde; 
+   
+}
+#inspection-pic ul {
+    color: #184dde;
+    margin-top: 10px;
 }
 #ndt-pic {
     background: url("../images/ndt.jpg");
@@ -417,6 +453,15 @@ div ul {
     background-repeat: no-repeat;
     background-size: 80%;
     min-height: 200px;
+}
+#ndt-pic h2 {
+    margin-top: 200px;
+   color: #184dde; 
+   
+}
+#ndt-pic ul {
+    color: #184dde;
+    margin-top: 10px;
 }
 
 
