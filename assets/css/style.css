@@ -51,7 +51,7 @@ h1{
 }
 /*Home Section*/
 #homeimg {
-    background: url("../images/indblr.jpg") ;
+    background: url("../images/newboilers.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -162,7 +162,6 @@ div ul {
     width: 100%;
 }
 #burners div {
-    background-color: rgba(235, 82, 82, 0.596);
     color: #184dde;
     width: 18%;
     height: 500px;
@@ -174,48 +173,89 @@ div ul {
 }
 /*Burners background pics*/
 #hilow-pic {
-    background: url("../images/hilow.jpg");
-    background-position: center;
+    background: url("../images/hi-low2.png");
+    background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     min-height: 200px;
     
 }
 #hilow-pic h2 {
+    margin-top: 200px;
    color: #184dde; 
-   background-color: rgba(235, 82, 82, 0.596);
+   
+}
+#hilow-pic ul {
+    color: #184dde;
+    margin-top: 10px;
 }
 #modulating-pic {
     background: url("../images/modulating.jpg");
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 200px;
     color: #184dde;
+}
+#modulating-pic h2 {
+    margin-top: 200px;
+   color: #184dde; 
+   
+}
+#modulating-pic ul {
+    color: #184dde;
+    margin-top: 10px;
 }
 #digital-pic {
     background: url("../images/digital.jpg");
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 200px;
     color: #184dde;
+}
+#digital-pic h2 {
+    margin-top: 200px;
+   color: #184dde; 
+   
+}
+#digital-pic ul {
+    color: #184dde;
+    margin-top: 10px;
 }
 #process-pic {
     background: url("../images/process2.jpg");
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 60%;
     min-height: 200px;
     color: #184dde;
 }
+#process-pic h2 {
+    margin-top: 200px;
+   color: #184dde; 
+   
+}
+#process-pic ul {
+    color: #184dde;
+    margin-top: 10px;
+}
 #fgr-pic {
     background: url("../images/fgr2.jpg");
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: 80%;
     min-height: 200px;
     color: #184dde;
+}
+#fgr-pic h2 {
+    margin-top: 200px;
+   color: #184dde; 
+   
+}
+#fgr-pic ul {
+    color: #184dde;
+    margin-top: 10px;
 }
 
 
