@@ -116,58 +116,25 @@ h1{
 }
 /* burners*/
 #burners div {
-    width: 100%;
-    float: left;
-    padding: 0;
-    margin-top: 0;
-    height: 500px;
-    }
-/* controls*/
-/*#controls div {
     width: 90%;
     float: left;
     padding: 0;
     margin-top: 0;
     height: 500px;
-    }*/
-#steam-boiler-pic {
-     width: 100%;
+    }
+
+/* controls*/
+#controls div {
+    width: 90%;
     float: left;
     padding: 0;
     margin-top: 0;
     height: 500px;
-}
-#hot-water-pic {
-     width: 100%;
-    float: left;
-    padding: 0;
-    margin-top: 0;
-    height: 500px;
-}
-#cascade-pic {
-     width: 100%;
-    float: left;
-    padding: 0;
-    margin-top: 0;
-    height: 500px;
-}
-#bms-pic {
-     width: 100%;
-    float: left;
-    padding: 0;
-    margin-top: 0;
-    height: 500px;
-}
-#remote-pic {
-     width: 100%;
-    float: left;
-    padding: 0;
-    margin-top: 0;
-    height: 500px;
-}
+    }
+
 /*steam boilers*/
 #steam-boilers div {
-    width: 100%;
+    width: 90%;
     float: left;
     padding: 0;
     margin-top: 0;
@@ -175,7 +142,7 @@ h1{
     }
 /* training */
 #training-courses div {
-    width: 100%;
+    width: 90%;
     float: left;
     padding: 0;
     margin-top: 0;
