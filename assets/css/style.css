@@ -512,6 +512,23 @@ max-width: 300px;
 text-align: left;
 
 }
+/*Footer*/
+footer{
+    height: 150px;
+    width: 100%;
+    }
+.social-media {
+    text-align: center;
+}
+.social-media li{
+    display: inline;
+    }
+.social-media i {
+        font-size: 150%;
+        margin: 1%;
+        padding: 1%;
+        color: #184dde;
+    }
 @media screen and (max-width:943px){
 /* header*/
 #logo {
@@ -519,11 +536,11 @@ text-align: left;
     width: 70%;
 }
 #logo h1 {
-    text-align: center;
+    text-align: left;
 }
 #menu li {
     clear: left;
-    text-align: center;
+    text-align: left;
     margin-left: 10px;
 }
 #homeimg {
@@ -577,30 +594,18 @@ text-align: left;
     margin-top: 0;
     height: 500px;
     }
+
+.social-media li{
+    display: none;
+}
+.social-media i {
+    font-size: 300%;
 }
 
-/*Footer*/
-#sm-heading div {
-    margin-top: 100px;
-    width: 100%;
-    text-align: center;
-    color: #184dde;
-}
-footer{
-    height: 150px;
-    }
-.social-media {
-    text-align: center;
-}
-.social-media li{
-    display: inline;
-    }
-.social-media i {
-        font-size: 150%;
-        margin: 1%;
-        padding: 1%;
-        color: #184dde;
-    }
+
+
+
+
 
 
 
