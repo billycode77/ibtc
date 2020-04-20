@@ -62,7 +62,7 @@ h1{
     background-color: rgba(51, 48, 48, 0.5);
     color: #fafafa;
     width: 20%;
-    height: 900px;
+    height: 700px;
     float: left;
     padding: 20px 0 0 10px;
     text-align: left;
@@ -154,6 +154,7 @@ h1{
     padding: 0;
     margin-top: 0;
     height: 500px;
+    color: red;
     }
 
 /* controls*/
@@ -190,19 +191,7 @@ div ul {
     list-style-type: none;
 }
 
-#burner-headings {
-    width: 100%;
-}
-#burner-headings div {
-    
-    color: #184dde;
-    width: 18%;
-    height: 50px;
-    float: left;
-    padding: 20px 0 0 10px;
-    text-align: center;
-    margin-left: 1%
-}
+
 
 #burners {
     width: 100%;
@@ -222,12 +211,12 @@ div ul {
     background: url("../images/hi-low2.png");
     background-position: top;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 90%;
     min-height: 200px;
     
 }
 #hilow-pic h2 {
-    margin-top: 200px;
+    margin-top: 70%;
    color: #184dde; 
    
 }
@@ -239,12 +228,12 @@ div ul {
     background: url("../images/modulating.jpg");
     background-position: top;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 90%;
     min-height: 200px;
     color: #184dde;
 }
 #modulating-pic h2 {
-    margin-top: 200px;
+    margin-top: 70%;
    color: #184dde; 
    
 }
@@ -261,7 +250,7 @@ div ul {
     color: #184dde;
 }
 #digital-pic h2 {
-    margin-top: 200px;
+    margin-top: 70%;
    color: #184dde; 
    
 }
@@ -278,7 +267,7 @@ div ul {
     color: #184dde;
 }
 #process-pic h2 {
-    margin-top: 200px;
+    margin-top: 70%;
    color: #184dde; 
    
 }
@@ -295,7 +284,7 @@ div ul {
     color: #184dde;
 }
 #fgr-pic h2 {
-    margin-top: 200px;
+    margin-top: 70%;
    color: #184dde; 
    
 }
@@ -328,7 +317,7 @@ div ul {
     min-height: 200px;
 }
 #steam-boiler-pic h2 {
-    margin-top: 200px;
+    margin-top: 70%;
    color: #184dde; 
    
 }
@@ -344,7 +333,7 @@ div ul {
     min-height: 200px;
 }
 #hot-water-pic h2 {
-    margin-top: 200px;
+    margin-top: 70%;
    color: #184dde; 
    
 }
@@ -360,7 +349,7 @@ div ul {
     min-height: 200px;
 }
 #cascade-pic h2 {
-    margin-top: 200px;
+    margin-top: 70%;
    color: #184dde; 
    
 }
@@ -372,11 +361,11 @@ div ul {
     background: url("../images/remote2.jpg");
     background-position: top;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 90%;
     min-height: 200px;
 }
 #bms-pic h2 {
-    margin-top: 200px;
+    margin-top: 70%;
    color: #184dde; 
    
 }
@@ -388,11 +377,11 @@ div ul {
     background: url("../images/remotec.png");
     background-position: top;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 90%;
     min-height: 200px;
 }
 #remote-pic h2 {
-    margin-top: 200px;
+    margin-top: 70%;
    color: #184dde; 
    
 }
@@ -400,11 +389,7 @@ div ul {
     color: #184dde;
     margin-top: 10px;
 }
-#sm-heading div {
-    width: 100%;
-    text-align: center;
-    color: #184dde;
-}
+
 
 /*Steam section*/
 #steam-headings {
@@ -442,7 +427,7 @@ div ul {
     min-height: 200px;
 }
 #operator-pic h2 {
-    margin-top: 200px;
+    margin-top: 70%;
    color: #184dde; 
    
 }
@@ -458,7 +443,7 @@ div ul {
     min-height: 200px;
 }
 #water-treatment-pic h2 {
-    margin-top: 200px;
+    margin-top: 70%;
    color: #184dde; 
    
 }
@@ -474,7 +459,7 @@ div ul {
     min-height: 200px;
 }
 #hot-well-pic h2 {
-    margin-top: 200px;
+    margin-top: 70%;
    color: #184dde; 
    
 }
@@ -490,7 +475,7 @@ div ul {
     min-height: 200px;
 }
 #inspection-pic h2 {
-    margin-top: 200px;
+    margin-top: 70%;
    color: #184dde; 
    
 }
@@ -506,7 +491,7 @@ div ul {
     min-height: 200px;
 }
 #ndt-pic h2 {
-    margin-top: 200px;
+    margin-top: 70%;
    color: #184dde; 
    
 }
@@ -599,6 +584,11 @@ text-align: left;
 }
 
 /*Footer*/
+#sm-heading div {
+    width: 100%;
+    text-align: center;
+    color: #184dde;
+}
 footer{
     height: 150px;
     }
