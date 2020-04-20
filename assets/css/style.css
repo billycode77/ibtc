@@ -516,6 +516,7 @@ text-align: left;
 /* header*/
 #logo {
     background-color: rgba(255, 251, 251, 0.178);
+    width: 70%;
 }
 #logo h1 {
     text-align: center;
@@ -543,7 +544,7 @@ text-align: left;
 
 /* burners*/
 #burners div {
-    width: 90%;
+    width: 70%;
     float: left;
     padding: 0;
     margin-top: 0;
@@ -553,7 +554,7 @@ text-align: left;
 
 /* controls*/
 #controls div {
-    width: 90%;
+    width: 70%;
     float: left;
     padding: 0;
     margin-top: 0;
@@ -562,7 +563,7 @@ text-align: left;
 
 /*steam boilers*/
 #steam-boilers div {
-    width: 90%;
+    width: 70%;
     float: left;
     padding: 0;
     margin-top: 0;
@@ -570,7 +571,7 @@ text-align: left;
     }
 /* training */
 #training-courses div {
-    width: 90%;
+    width: 70%;
     float: left;
     padding: 0;
     margin-top: 0;
