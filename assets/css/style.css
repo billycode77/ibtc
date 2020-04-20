@@ -82,7 +82,7 @@ h1{
     text-decoration: underline;
     text-transform: uppercase;
 }
-@media screen and (max-width: 1024px ) {
+/*@media screen and (max-width: 1024px ) {
 
 #homeimg div {
     width: 50%;
@@ -100,7 +100,7 @@ h1{
     height: 500px;
     }
 
-/* controls*/
+/* controls
 #controls div {
     width: 50%;
     float: left;
@@ -109,7 +109,7 @@ h1{
     height: 500px;
     }
 
-/*steam boilers*/
+/*steam boilers
 #steam-boilers div {
     width: 50%;
     float: left;
@@ -117,7 +117,7 @@ h1{
     margin-top: 0;
     height: 500px;
     }
-/* training */
+/* training 
 #training-courses div {
     width: 50%;
     float: left;
@@ -125,64 +125,9 @@ h1{
     margin-top: 0;
     height: 500px;
     }
-}
+}*/
 /*mobile device*/
-@media screen and (max-width: 860px ){
-/* header*/
-#logo {
-    background-color: rgba(255, 251, 251, 0.178);
-}
-#homeimg {
-    width: 100%;
-    height: 1500px;
-    margin: 0 auto;
-}
-#homeimg div {
-    width: 90%;
-    float: left;
-    padding: 0;
-    margin-top: 0;
-    height: 500px;
-    }
-#homeimg div p {
-    text-align: center;
-}
-/* burners*/
-#burners div {
-    width: 90%;
-    float: left;
-    padding: 0;
-    margin-top: 0;
-    height: 500px;
-    color: red;
-    }
 
-/* controls*/
-#controls div {
-    width: 90%;
-    float: left;
-    padding: 0;
-    margin-top: 0;
-    height: 500px;
-    }
-
-/*steam boilers*/
-#steam-boilers div {
-    width: 90%;
-    float: left;
-    padding: 0;
-    margin-top: 0;
-    height: 500px;
-    }
-/* training */
-#training-courses div {
-    width: 90%;
-    float: left;
-    padding: 0;
-    margin-top: 0;
-    height: 500px;
-    }
-}
 
 
 /*Burners section*/
@@ -567,8 +512,70 @@ max-width: 300px;
 text-align: left;
 
 }
-.checkbox {
-  
+@media screen and (max-width:943px){
+/* header*/
+#logo {
+    background-color: rgba(255, 251, 251, 0.178);
+}
+#logo h1 {
+    text-align: center;
+}
+#menu li {
+    clear: left;
+    text-align: center;
+    margin-left: 10px;
+}
+#homeimg {
+    width: 100%;
+    height: 1500px;
+    margin: 0 auto;
+}
+#homeimg div {
+    width: 90%;
+    float: left;
+    padding: 0;
+    margin-top: 0;
+    height: 500px;
+    }
+#homeimg div p {
+    text-align: center;
+}
+
+/* burners*/
+#burners div {
+    width: 90%;
+    float: left;
+    padding: 0;
+    margin-top: 0;
+    height: 500px;
+    color: red;
+    }
+
+/* controls*/
+#controls div {
+    width: 90%;
+    float: left;
+    padding: 0;
+    margin-top: 0;
+    height: 500px;
+    }
+
+/*steam boilers*/
+#steam-boilers div {
+    width: 90%;
+    float: left;
+    padding: 0;
+    margin-top: 0;
+    height: 500px;
+    }
+/* training */
+#training-courses div {
+    width: 90%;
+    float: left;
+    padding: 0;
+    margin-top: 0;
+    height: 500px;
+    }
 }
 
 /*Footer*/
