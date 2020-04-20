@@ -140,6 +140,7 @@ div ul {
 
 #burners {
     width: 100%;
+    background: url("../images/newboilers.jpg") ;
 }
 #burners div {
     color: #184dde;
@@ -242,6 +243,7 @@ div ul {
 /*controls section*/
 #controls {
     width: 100%;
+    background: url("../images/newboilers.jpg") ;
 }
 #controls div {
     
@@ -340,6 +342,7 @@ div ul {
 
 #steam {
     width: 100%;
+    background: url("../images/newboilers.jpg") ;
 }
 #steam div {
     
@@ -461,7 +464,7 @@ position: absolute;
 
 
 #training-courses {
-    background: url("../images/newboilers.jpg") ;
+    background: url("../images/indblr.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -536,11 +539,11 @@ footer{
     width: 70%;
 }
 #logo h1 {
-    text-align: left;
+    text-align: center;
 }
 #menu li {
     clear: left;
-    text-align: left;
+    display: inline-block;
     margin-left: 10px;
 }
 #homeimg {
@@ -550,9 +553,9 @@ footer{
 }
 #homeimg div {
     width: 90%;
-    float: left;
+    
     padding: 0;
-    margin-top: 0;
+    margin-top: 10;
     height: 500px;
     }
 #homeimg div p {
@@ -561,47 +564,42 @@ footer{
 
 /* burners*/
 #burners div {
-    width: 70%;
+    width: 90%;
     float: left;
     padding: 0;
-    margin-top: 0;
+    margin-top: 10;
     height: 500px;
     color: red;
     }
 
 /* controls*/
 #controls div {
-    width: 70%;
+    width: 90%;
     float: left;
     padding: 0;
-    margin-top: 0;
+    margin-top: 10;
     height: 500px;
     }
 
 /*steam boilers*/
-#steam-boilers div {
-    width: 70%;
+#steam div {
+    width: 90%;
     float: left;
     padding: 0;
-    margin-top: 0;
+    margin-top: 10;
     height: 500px;
     }
 /* training */
 #training-courses div {
-    width: 70%;
+    width: 80%;
     float: left;
     padding: 0;
-    margin-top: 0;
-    height: 500px;
+    margin-top: 10px;
+    height: 550px;
     }
 
-.social-media li{
-    display: none;
-}
-.social-media i {
-    font-size: 300%;
-}
 
+}
 
 
 
