@@ -153,7 +153,7 @@ div ul {
     background: url("../images/digital.jpg");
     background-position: top;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 90%;
     min-height: 200px;
     color: #184dde;
 }
@@ -187,7 +187,7 @@ div ul {
     background: url("../images/fgr2.jpg");
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size: 70%;
     min-height: 200px;
     color: #184dde;
 }
@@ -561,12 +561,14 @@ footer{
     width: 70%;
 }
 #logo h1 {
-    text-align: center;
+    text-align: left;
 }
 #menu li {
     clear: left;
-    display: inline-block;
+    float: left;
     margin-left: 10px;
+    margin-bottom: 20px;
+    line-height: 25px;
 }
 #homeimg {
     width: 100%;
