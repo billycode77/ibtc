@@ -505,17 +505,15 @@ footer{
     }
 
 
-@media screen and (max-width: 1824px ) {
+@media screen and (max-width: 1324px ) {
     #logo {
-    background-color: rgba(255, 251, 251, 0.178);
+   
     width: 100%;
 }
     #menu li {
     clear: left;
-    float: left;
     display: inline;
     margin-left: 10px;
-    margin-bottom: 20px;
     line-height: 25px;
 }
 
@@ -546,6 +544,7 @@ footer{
     }
 
 /*steam boilers*/
+
 #steam div {
     width: 30%;
     float: left;
@@ -566,11 +565,10 @@ footer{
 
 /*mobile device*/
 
-@media screen and (max-width:943px){
+@media screen and (max-width:843px){
 /* header*/
 #logo {
     background-color: rgba(255, 251, 251, 0.178);
-    width: 70%;
 }
 #logo h1 {
     text-align: left;
@@ -600,7 +598,7 @@ footer{
 
 /* burners*/
 #burners div {
-    width: 90%;
+    width: 40%;
     float: left;
     padding: 0;
     margin-top: 10px;
@@ -610,7 +608,7 @@ footer{
 
 /* controls*/
 #controls div {
-    width: 90%;
+    width: 40%;
     float: left;
     padding: 0;
     margin-top: 10;
@@ -619,7 +617,7 @@ footer{
 
 /*steam boilers*/
 #steam div {
-    width: 90%;
+    width: 40%;
     float: left;
     padding: 0;
     margin-top: 10;
@@ -627,7 +625,7 @@ footer{
     }
 /* training */
 #training-courses div {
-    width: 80%;
+    width: 40%;
     float: left;
     padding: 0;
     margin-top: 10px;
