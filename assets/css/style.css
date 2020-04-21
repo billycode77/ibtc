@@ -505,10 +505,15 @@ footer{
     }
 
 
-@media screen and (max-width: 1424px ) {
+@media screen and (max-width: 1824px ) {
+    #logo {
+    background-color: rgba(255, 251, 251, 0.178);
+    width: 100%;
+}
     #menu li {
     clear: left;
     float: left;
+    display: inline;
     margin-left: 10px;
     margin-bottom: 20px;
     line-height: 25px;
