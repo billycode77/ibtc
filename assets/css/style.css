@@ -505,13 +505,20 @@ footer{
     }
 
 
-@media screen and (max-width: 1024px ) {
+@media screen and (max-width: 1424px ) {
+    #menu li {
+    clear: left;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
 
 #homeimg div {
     width: 25%;
     float: left;
     padding: 0;
-    height: 800px;
+    height: 2500px;
     }
 #homeimg div p {
     text-align: center;
@@ -520,8 +527,8 @@ footer{
     width: 30%;
     float: left;
     padding: 0;
-    margin-top: 0;
-    height: 500px;
+    margin-top: 10px;
+    height: 800px;
     }
 
 /* controls*/
@@ -529,8 +536,8 @@ footer{
     width: 30%;
     float: left;
     padding: 0;
-    margin-top: 0;
-    height: 500px;
+    margin-top: 10px;
+    height: 800px;
     }
 
 /*steam boilers*/
@@ -538,8 +545,8 @@ footer{
     width: 30%;
     float: left;
     padding: 0;
-    margin-top: 0;
-    height: 500px;
+    margin-top: 10px;
+    height: 800px;
     }
 /* training*/
 #training-courses div {
