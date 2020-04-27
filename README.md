@@ -13,13 +13,20 @@ Select training courses to register or select courses of interest
 Build: I have used only the training videos and code selected from this course, and modified to do what I want on my web site.
 I have used HTML and CSS. I chose not to use any bootstrap on this paticular design.
 
-Downloads: All pics have been downloaded from google pics with permissions to use in educational projects.
-Your Project's Name
-One or two paragraphs providing an overview of your project.
 
-Essentially, this part is your sales pitch.
+Project Name : Industrial Boiler Training Company
+
+Description :
+ This is a mock wesite for a made up company.
+The home page give a brief description of the company history, brief details of the courses, and the company contact list. There is a menu in the header. It allows you
+to select Controls,Burners, Steam Boilers or Training courses.
+The Controls, Burners and Steam boiler pages are set out in 5 columns . Each column give a list of what topics are covered in the courses, with a visual image or
+ picture above the heading.
+The training course page is split in to 3 columns. The first one you can register your details. The second on you can select the courses that you are interested in.
+The third column is the company details again.
 
 UX
+
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
