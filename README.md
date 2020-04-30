@@ -14,32 +14,39 @@ The training course page is split in to 3 columns. The first one you can registe
 The third column is the company details again.
 
 UX
-This is a business to business wed site designed to target Industrial boiler companies. They will see what special training we can offer that will benefit their
-business. 
+This is a business to business web site designed to target Industrial boiler companies. They will see what special training we can offer that will benefit their
+business going forward. 
+To give the user the best possible experience, I have carefully selected a veriety of relevant pictures for each section. The home page and the Training courses page
+have full background pictures. This adds to the visual aesthetics of the design.
 
+User Stories
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+Boilertec(Scotland)LTD
+We are an Industrial and Commercial boiler company. We require specific training for our operatives. We found the IBTC site on the web, and have used it every
+time we need specific training. We find the site very easy to navigate. The Information is all there, and the pictures make the experience plesurable.
+It is very easy to select the courses you are interested in, and register your details.
 
-As a user type, I want to perform an action, so that I can achieve a goal.
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+The header has the logo and the menu, and the footer has the social media links. These are the same across all pages.
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+The home page has a background picture of industrial Hot Water boilers. It is split in to 3 columns. One has a brief company history, 
+two has a brief description of the training courses, and the other has the company details.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+The controls, Burners, and steam Boilers pages, are split in to 5 columns. Each column has a picture, a heading, and a list of the course content.
 
-Features Left to Implement
-Another feature idea
+The Training courses page has a background picture of industrial Steam boilers with FGR Burners. It is split in to 3 columns. One is the registration from,
+ two is the course selection with checkboxex,  and the other has the company details again.
+
+
 Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+This web site was designed using HTML and CSS.
+The icons used were from Font Awsome Kit : "https://kit.fontawesome.com/c5b750cde7.js"
+The fonts used were from Google Fonts : @import url('https://fonts.googleapis.com/css?family=Lato:300|Roboto:700');
+All The pictures we from Google, by searching "Industrial boiler pics", "Steam boiler pics", "Boiler controls pics" and "Industrial Burner pics"
+I looked back at previous videos from the Code institute course, and modified the code to suit my web design.
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
 Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
